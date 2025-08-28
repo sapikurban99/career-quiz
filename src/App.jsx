@@ -13,7 +13,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 const SUPABASE_URL = "https://ygukrdmppkedhjkivokt.supabase.co";
 const SUPABASE_ANON_KEY =
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlndWtyZG1wcGtlZGhqa2l2b2t0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTYyNzc4NDEsImV4cCI6MjA3MTg1Mzg0MX0._doo58UJfh-8S41j8pDS_nb5EWguJbVydYPE7xuopSU";
-const SUPABASE_TABLE = "public.leads"; // schema-qualified to avoid PGRST205 cache issues
+const SUPABASE_TABLE = "leads"; // Supabase REST API automatically adds public schema prefix
 
 const ATTR_LINKEDIN = "https://www.linkedin.com/in/muhammad-alhadiansyah-santoso/";
 const ATTR_PIJAR = "https://pijarteknologi.id/";
