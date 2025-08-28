@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build": "react-scripts build",
     "tailwind-init": "tailwindcss init -p"
   },
   "devDependencies": {
